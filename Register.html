@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="Register.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+  </head>
+  <body>
+    <header id="navbar">
+      <nav>
+        <h1>get<span>Linked</span></h1>
+        <div class="list">
+          <ul>
+            <li><a href="index.html">Timeline</a></li>
+            <li><a href="#Overview">Overview</a></li>
+            <li><a href="#FAQS">FAQS</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+          <a href="Register.html"><button class="btn">Register</button></a>
+        </div>
+
+        <div class="menu">
+          <ul>
+            <li><a href="index.html">Timeline</a></li>
+            <li><a href="">Overview</a></li>
+            <li><a>FAQS</a></li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+          <a href="Register.html"><button class="btn">Register</button></a>
+        </div>
+        <button class="hamburger">
+          <span class="firsth" id="icon"></span>
+          <span class="second" id="icon"></span>
+          <span class="third" id="icon"></span>
+        </button>
+      </nav>
+    </header>
+    <div class="form-field">
+      <div class="form-image">
+        <img src="register-img.png" />
+      </div>
+      <div class="form">
+        <form>
+          <div class="form-txt">
+            <h2 class="txt">Register</h2>
+            <p>Be part of this movement!</p>
+            <h2>CREATE YOUR ACCOUNT</h2>
+          </div>
+          <div class="form-inputs">
+            <div class="inputs">
+              <label for="groupName"
+                >Team's Name <br />
+                <input
+                  type="text"
+                  id="groupName"
+                  placeholder="Enter the name of your group"
+                />
+              </label>
+              <label for="phoneNumber"
+                >Phone <br />
+                <input
+                  type="text"
+                  id="phoneNumber"
+                  placeholder="Enter your phone number"
+                  required
+                />
+              </label>
+            </div>
+            <div class="inputs">
+              <label for="email"
+                >Email <br />
+                <input
+                  type="email"
+                  id="groupName"
+                  placeholder="Enter your email address"
+                  required
+                />
+              </label>
+              <label for="project"
+                >Project Topic <br />
+                <input
+                  type="text"
+                  id="project"
+                  placeholder="What is your group project name?"
+                  required
+                />
+              </label>
+            </div>
+            <div class="inputs">
+              <label for="Catergory"
+                >Catergory <br />
+                <select id="Catergory">
+                  <option value="" disabled selected hidden>
+                    Select your category
+                  </option>
+                  <option>FrontEnd</option>
+                  <option>BackEnd</option>
+                  <option>Design</option>
+                  <option>Mobile developer</option>
+                  <option>Cyber security</option>
+                </select>
+              </label>
+              <label for="groupSize"
+                >Group Size <br />
+                <select id="Catergory">
+                  <option value="" disabled selected hidden>
+                    Select your category
+                  </option>
+                  <option>1-5</option>
+                  <option>5-10</option>
+                  <option>10-20</option>
+                </select>
+              </label>
+            </div>
+          </div>
+          <p class="txt">
+            Please review your registration details before submitting
+          </p>
+          <div class="check">
+            <input type="checkbox" required />
+            <p>
+              I agreed with the event terms and conditions and privacy policy
+            </p>
+          </div>
+          <button class="btn2">Register</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>

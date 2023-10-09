@@ -1,7 +1,3 @@
-// window.onscroll = function () {
-//   myFunction();
-// };
-
 var navbar = document.getElementById("navbar");
 
 const menu = document.querySelector(".menu");
@@ -149,17 +145,3 @@ ScrollReveal().reveal(".terms-img", {
   distance: "120px",
   easing: "ease-in-out",
 });
-
-const form = document.getElementById("form");
-
-// form.addEventListener("submit", function (e) {
-//   e.preventDefault();
-
-//   const formLoad = new FormData(form);
-//   const formLoaded = new URLSearchParms(formLoad);
-
-//   fetch(`https://backend.getlinked.ai`, {
-//     method: "POST",
-//     body: "formLoad",
-//   });
-// });

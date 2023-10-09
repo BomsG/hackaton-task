@@ -3,27 +3,16 @@
 // };
 
 var navbar = document.getElementById("navbar");
-var sticky = navbar.offsetTop;
-
-function myFunction() {
-  if (window.pageYOffset >= sticky) {
-    navbar.classList.add("sticky");
-  } else {
-    navbar.classList.remove("sticky");
-  }
-}
 
 const menu = document.querySelector(".menu");
-const menuItems = document.querySelectorAll(".menuItem");
-const hamburger = document.querySelector(".hamburger");
-const closeIcon = document.querySelector(".closeIcon");
+
+const hamburger = document.getElementById("hamburger");
 const menuIcon = document.querySelector(".menuIcon");
 const icon = document.getElementById("icon");
 
 function toggleMenu() {
   if (menu.classList.contains("showMenu")) {
     menu.classList.remove("showMenu");
-    closeIcon.style.display = "none";
     menuIcon.style.display = "block";
   } else {
     menu.classList.add("showMenu");

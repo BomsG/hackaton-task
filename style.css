@@ -117,9 +117,6 @@ nav .btn:hover {
   margin-left: 10px;
 }
 
-.closeIcon {
-  display: none;
-}
 .menu {
   position: fixed;
   transform: translateY(-100%);
@@ -205,7 +202,8 @@ nav .btn:hover {
     height: 20px;
   }
   .ignite h1 {
-    font-size: 20px;
+    font-size: 15px;
+    padding-top: 10px;
   }
   .ignit-txt img {
     width: 200px;
@@ -264,7 +262,7 @@ nav .btn:hover {
   padding-top: 30px;
 }
 .hero-image img {
-  width: 800px;
+  width: 600px;
   height: 700px;
 }
 @media only screen and (max-width: 800px) {

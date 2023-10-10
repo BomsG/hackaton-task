@@ -18,9 +18,7 @@ function toggleMenu() {
 }
 
 hamburger.addEventListener("click", toggleMenu);
-menuItems.forEach(function (menuItem) {
-  menuItem.addEventListener("click", toggleMenu);
-});
+
 
 const hours = document.getElementById("hour");
 const minutes = document.getElementById("minutes");

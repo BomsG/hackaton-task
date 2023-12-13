@@ -217,7 +217,7 @@ nav .btn:hover {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-left: 200px;
+  padding: 0px 100px;
   border-bottom: 1px solid #ffffff6c;
   margin-bottom: 200px;
 }
@@ -230,7 +230,7 @@ nav .btn:hover {
   margin-bottom: 0;
 }
 .hero-txt h1 {
-  font-size: 80px;
+  font-size: 60px;
 }
 
 .hero-txt p {
@@ -268,7 +268,7 @@ nav .btn:hover {
 @media only screen and (max-width: 800px) {
   .hero-content {
     display: block;
-    padding-left: 0;
+    padding: 0px 30px;
     border-bottom: 1px solid #ffffff6c;
     margin-bottom: 100px;
     align-items: center;
@@ -314,22 +314,24 @@ nav .btn:hover {
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  padding-left: 100px;
+  padding-left: 20px;
+  padding-right: 20px;
   border-bottom: 1px solid #ffffff6c;
   padding-bottom: 50px;
   margin-bottom: 100px;
   z-index: 999;
+  width: 100%;
 }
 .idea img {
-  width: 800px;
+  width: 60%;
+  /* height: 500px; */
   background: radial-gradient(#5328c9 10%, #150e28 60%);
-  background-position: center;
 }
 .idea-txt {
-  margin-right: 50px;
+  width: 100%;
 }
 .idea-txt h2 {
-  font-size: 40px;
+  font-size: 30px;
   padding-bottom: 10px;
 }
 .idea-txt img {
@@ -342,9 +344,10 @@ nav .btn:hover {
 
 .txt {
   color: #d434fe;
+  font-size: 20px;
 }
-.idea-txt p {
-  font-size: 15px;
+.attributes {
+  font-size: 10px;
 }
 @media only screen and (max-width: 800px) {
   .idea {
@@ -379,12 +382,12 @@ nav .btn:hover {
     display: block;
   }
   .idea-txt p {
-    font-size: 12px;
+    font-size: 14px;
   }
 }
 .att p {
   margin-bottom: 10px;
-  font-size: 20px;
+  font-size: 14px;
   line-height: 30px;
 }
 .att button {
@@ -558,7 +561,7 @@ details summary {
 }
 footer {
   background: #100a20;
-  padding: 50px 300px;
+  padding: 50px 100px;
   display: flex;
   justify-content: space-between;
 }

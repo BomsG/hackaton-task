@@ -171,7 +171,8 @@ nav .btn:hover {
   width: 100%;
   background: rgba(255, 255, 255, 0.03);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
-  padding: 20px 0px;
+  padding: 20px 30px;
+
   display: flex;
   justify-content: center;
   border-radius: 5px;
@@ -191,10 +192,11 @@ nav .btn:hover {
 }
 .inputs {
   display: flex;
-  margin-bottom: 30px;
+  margin: 30px 0px;
 }
 label {
-  margin-right: 30px;
+  font-size: 12px;
+  margin: 5px 10px;
 }
 .form-inputs input {
   padding: 10px 40px;
@@ -245,17 +247,23 @@ select option {
   .form p {
     font-size: 15px;
   }
+  label {
+    font-size: 12px;
+    margin-right: 3px;
+  }
   .inputs {
     display: block;
   }
   .check p {
     font-size: 10px;
   }
-  .form-inputs input {
+  input {
     padding: 10px 10px;
+    margin: 5px;
   }
 
   select {
     padding: 10px 10px;
+    margin: 10px 0px;
   }
 }
